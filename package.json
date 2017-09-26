@@ -1,0 +1,22 @@
+{
+  "name": "react-native-tmap",
+  "version": "1.0.0",
+  "description": "react native tmap module for android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an2416/react-native-tmap.git"
+  },
+  "keywords": [
+    "Tmap"
+  ],
+  "author": "“KHAN” <“an2416@naver.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/an2416/react-native-tmap/issues"
+  },
+  "homepage": "https://github.com/an2416/react-native-tmap#readme"
+}

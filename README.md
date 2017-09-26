@@ -1,8 +1,8 @@
 # react-native-tmap
-React Naitve Tmap Library
-For More detail visit [Tmap - SK planet](https://developers.skplanetx.com/apidoc/kor/tmap/)
-When you use this module, you have to get **API KEY**
-You can get API KEY this site --> <https://developers.skplanetx.com/apidoc/kor/tmap/>
+React Naitve Tmap Library </br>
+For More detail visit [Tmap - SK planet](https://developers.skplanetx.com/apidoc/kor/tmap/) </br>
+When you use this module, you have to get **API KEY** </br>
+You can get API KEY this site --> <https://developers.skplanetx.com/apidoc/kor/tmap/> </br>
 
 ## Important
 This module only supported Android

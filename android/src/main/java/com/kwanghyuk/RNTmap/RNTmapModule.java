@@ -28,6 +28,16 @@ public class TmapModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    public void setApiKey(String val, Callback errorCallback, Callback successCallback) {
+      try {
+        APIKEY = val;
+        successCallback.invoke({apiKey:val});
+      } catch(Exception e) {
+        errorCallback.invoke(e.getMessage());
+      }
+    }
+
+    @ReactMethod
     public void getZoomLevel(Callback errorCallback, Callback successCallback) {
       try {
         TMapView tmapview = new TMapView(getReactApplicationContext());
@@ -39,12 +49,12 @@ public class TmapModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void callTmap(Callback errorCallback, Callback successCallback) {
+    public void invokeRoute(String dest, double fx, double fy, Callback errorCallback, Callback successCallback) {
         try {
             TMapView tmapview = new TMapView(getReactApplicationContext());
             tmapview.setSKPMapApiKey(APIKEY);
             TMapTapi tmaptapi = new TMapTapi(curAppContext);
-            tmaptapi.invokeRoute("T 타워", 126.984098f, 37.566385f);
+            tmaptapi.invokeRoute(dest, fx, fy);
             successCallback.invoke("good");
         } catch (Exception e) {
             errorCallback.invoke(e.getMessage());
@@ -74,8 +84,6 @@ public class TmapModule extends ReactContextBaseJavaModule {
         }
     }
 
-
-    // 필수 사항 : 자바스크립트에서 보여지는 모듈 이름 (ReactContextBaseJavaModule를 사용하려면 필수)
     @Override
     public String getName() {
         return "RNTmap";

@@ -1,4 +1,4 @@
-package com.tmap;
+package com.kwanghyuk.RNTmap;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

@@ -3,22 +3,22 @@ React Naitve Tmap Library </br>
 For More detail visit [Tmap - SK planet](https://developers.skplanetx.com/apidoc/kor/tmap/) </br>
 When you use this module, you have to get **API KEY** </br>
 You can get API KEY this site --> <https://developers.skplanetx.com/apidoc/kor/tmap/> </br>
-
+</br>
 ## Important
 This module only supported Android
-
+</br></br>
 ## Install
 ```bash
 npm install --save react-native-tmap
 ```
-
+</br></br>
 ## Linking
 
 ### Automatically
 ```bash
 react-native link
 ```
-
+</br></br>
 ### Manually
 
 #### Android
@@ -56,7 +56,7 @@ dependencies {
 ```
 
 
-
+</br></br>
 ## Usage
 ``` 
 preparing

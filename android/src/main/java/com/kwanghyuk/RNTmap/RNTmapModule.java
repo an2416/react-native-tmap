@@ -31,7 +31,7 @@ public class TmapModule extends ReactContextBaseJavaModule {
     public void setApiKey(String val, Callback errorCallback, Callback successCallback) {
       try {
         APIKEY = val;
-        successCallback.invoke({apiKey:val});
+        successCallback.invoke(val);
       } catch(Exception e) {
         errorCallback.invoke(e.getMessage());
       }

@@ -13,7 +13,7 @@ public class RNTmapPackage implements ReactPackage {
   @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
-    modules.add(new TmapModule(reactContext));
+    modules.add(new RNTmapModule(reactContext));
     return modules;
   }
 

@@ -49,7 +49,7 @@ public class RNTmapModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void invokeRoute(String dest, double fx, double fy, Callback errorCallback, Callback successCallback) {
+    public void invokeRoute(String dest, float fx, float fy, Callback errorCallback, Callback successCallback) {
         try {
             TMapView tmapview = new TMapView(getReactApplicationContext());
             tmapview.setSKPMapApiKey(APIKEY);

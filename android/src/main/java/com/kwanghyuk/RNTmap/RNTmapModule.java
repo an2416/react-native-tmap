@@ -15,14 +15,14 @@ import com.skp.Tmap.TMapView;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TmapModule extends ReactContextBaseJavaModule {
+public class RNTmapModule extends ReactContextBaseJavaModule {
 
     private static final String DURATION_SHORT_KEY = "SHORT";
     private static final String DURATION_LONG_KEY = "LONG";
     private static final String APIKEY = ""; // API Key
     private final ReactApplicationContext curAppContext;
 
-    public TmapModule(ReactApplicationContext reactContext) {
+    public RNTmapModule(ReactApplicationContext reactContext) {
         super(reactContext);
         curAppContext = reactContext;
     }

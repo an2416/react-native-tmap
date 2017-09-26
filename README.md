@@ -21,7 +21,7 @@ react-native link
 
 ### Manually
 
-####Android
+#### Android
 
 1) Add 'react-native-tmap' to a project as a dependency in 'package.json' file.
 2) Execute 'npm install' to fetch and install a library.
@@ -58,4 +58,6 @@ dependencies {
 
 
 ## Usage
-```preparing```
+``` 
+preparing
+```

@@ -8,16 +8,16 @@ You can get API KEY this site --> <https://developers.skplanetx.com/apidoc/kor/t
 This module only supported Android
 
 ## Install
-'''bash
+```bash
 npm install --save react-native-tmap
-'''
+```
 
 ## Linking
 
 ### Automatically
-'''bash
+```bash
 react-native link
-'''
+```
 
 ### Manually
 
@@ -27,12 +27,12 @@ react-native link
 2) Execute 'npm install' to fetch and install a library.
 3) Open Android project located in './android' folder.
 4) In settings.gradle add following lines :
-'''groovy
+```groovy
 include ':react-native-tmap'
 project(':react-native-tmap').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tmap/android')
-'''
+```
 5) In 'MainApplication.getPackages' import and add RNTmap package:
-'''java
+```java
 import com.kwanghyuk.RNTmapPackage;
 ...
 public class MainApplication extends Application implements ReactApplication {
@@ -45,17 +45,17 @@ public class MainApplication extends Application implements ReactApplication {
       );
    }
 }
-'''
+```
 6) In 'build.gradle' of 'app' module add following dependency:
-'''groovy
+```groovy
 dependencies {
    ...
    compile project(':react-native-tmap')
    ...
 }
-'''
+```
 
 
 
 ## Usage
-'''preparing'''
+```preparing```

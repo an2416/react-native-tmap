@@ -1,4 +1,5 @@
 # react-native-tmap
+[![NPM](https://nodei.co/npm/react-native-tmap.png)](https://nodei.co/npm/react-native-tmap/)
 React Naitve Tmap Library </br>
 For More detail visit [Tmap - SK planet](https://developers.skplanetx.com/apidoc/kor/tmap/) </br>
 When you use this module, you have to get **API KEY** </br>
